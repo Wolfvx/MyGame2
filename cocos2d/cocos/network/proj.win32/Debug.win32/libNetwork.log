@@ -1,0 +1,21 @@
+﻿2014/11/08 17:10:29 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\prj\MyGame2\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\include" /I..\Include /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\cocos /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\external\websockets\include\win32 /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\external\curl\include\win32 /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\cocos /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\cocos\platform\win32 /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\cocos\platform\desktop /IC:\prj\MyGame2\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"C:\prj\MyGame2\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D COCOS2D_DEBUG=1 /D _VARIADIC_MAX=10 /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4251 /analyze- /errorReport:prompt ..\HttpClient.cpp ..\SocketIO.cpp ..\WebSocket.cpp
+         HttpClient.cpp
+         SocketIO.cpp
+         WebSocket.cpp
+     1>c:\prj\mygame2\cocos2d\cocos\network\httprequest.h(185): warning C4996: 'cocos2d::network::HttpRequest::setResponseCallback': が古い形式として宣言されました。 (..\HttpClient.cpp)
+                 c:\prj\mygame2\cocos2d\cocos\network\httprequest.h(188) : 'cocos2d::network::HttpRequest::setResponseCallback' の宣言を確認してください。
+     1>c:\prj\mygame2\cocos2d\cocos\network\httprequest.h(185): warning C4996: 'cocos2d::network::HttpRequest::setResponseCallback': が古い形式として宣言されました。 (..\SocketIO.cpp)
+                 c:\prj\mygame2\cocos2d\cocos\network\httprequest.h(188) : 'cocos2d::network::HttpRequest::setResponseCallback' の宣言を確認してください。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\prj\MyGame2\proj.win32\Debug.win32\libNetwork.lib" /NOLOGO Debug.win32\HttpClient.obj
+         Debug.win32\SocketIO.obj
+         Debug.win32\WebSocket.obj
+         libNetwork.vcxproj -> C:\prj\MyGame2\proj.win32\Debug.win32\libNetwork.lib
+     1>プロジェクト "C:\prj\MyGame2\cocos2d\cocos\network\proj.win32\libNetwork.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:03.74
